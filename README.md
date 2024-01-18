@@ -3,7 +3,7 @@
 This project is part of a Kaggle competition aimed at predicting customer churn using bank data. The goal is to develop effective machine learning models to identify potential churners and understand the key factors contributing to customer attrition.
 
 # Table of Contents of the repository
-
+ 
 - Data
     - df.csv (Cleaned training data)
     - test.csv (Data for model testing)
