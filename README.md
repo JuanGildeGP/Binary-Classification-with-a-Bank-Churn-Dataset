@@ -42,16 +42,24 @@ This project is part of a Kaggle competition aimed at predicting customer churn 
     - Complex base models without parameter tuning
         - Gradient Boosting
         - XGBoost
-        - LightGBM
+        - CAT
     - Complex base models with simple parameter tuning
         - GridSearch for Gradient Boosting
         - GridSearch for XGBoost
-        - GridSearch for LightGBM
+        - GridSearch for CAT
 
 - OverSampling_BestModels.ipynb
-    - K-folds with ensemble models (LGBM, XGBoost, Gradient Boosting) using VotingClassifier
-    - K-folds with ensemble models (LGBM, XGBoost, Gradient Boosting) using StackingClassifier
+    - K-folds with ensemble models (LGBM, XGBoost, CAT) using VotingClassifier
+    - K-folds with ensemble models (LGBM, XGBoost, CAT) using StackingClassifier
 
-# Next Steps
+- OverSampling_Stand_Training.ipynb
+  - Standarization of numerical variables
+    - Complex base models without parameter tuning
+        - Gradient Boosting
+        - XGBoost
+        - CAT
 
-The upcoming experiments will focus on dimensionality reduction and feature selection to mitigate overfitting. Additionally, numerical variables will be standardized and scaled using techniques such as Min-Max scaling to enhance model performance.
+- Best_Submission.ipynb
+    - K-folds with ensemble models (LGBM, XGBoost, CAT, Gradient Boosting) using VotingClassifier and GridSearch for weights
+  
+
